@@ -90,3 +90,8 @@ struct CenterExpandBarView: View {
 //        }
 //    }
 //}
+
+//LinearGradient(
+//    colors: [ Color(red: 235/255, green: 220/255, blue: 255/255), Color(red: 210/255, green: 185/255, blue: 255/255), Color(red: 245/255, green: 235/255, blue: 255/255) ],                startPoint: .topLeading,
+//    endPoint: .bottomTrailing
+//)

@@ -16,10 +16,22 @@ struct LaunchAnimationView: View {
         ZStack {
 
             // ✅ Dark purple gradient background
+//            LinearGradient(
+//                stops: [
+//                    .init(color: Color(red: 56/255, green: 84/255, blue: 136/255), location: 0.0),
+//                    .init(color: Color(red: 62/255, green: 150/255, blue: 199/255), location: 0.49),
+//                    .init(color: Color(red: 71/255, green: 201/255, blue: 255/255), location: 0.83)
+//                ],
+//                startPoint: .topLeading,
+//                endPoint: .bottomTrailing
+//            )
+            
             LinearGradient(
-                colors: [ Color(red: 235/255, green: 220/255, blue: 255/255), Color(red: 210/255, green: 185/255, blue: 255/255), Color(red: 245/255, green: 235/255, blue: 255/255) ],                startPoint: .topLeading,
+                colors: [ Color(red: 235/255, green: 220/255, blue: 255/255), Color(red: 210/255, green: 185/255, blue: 255/255), Color(red: 245/255, green: 235/255, blue: 255/255) ],
+                startPoint: .topLeading,
                 endPoint: .bottomTrailing
             )
+            
             .ignoresSafeArea()
 
             // ✅ Center fading logo
